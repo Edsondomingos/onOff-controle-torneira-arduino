@@ -15,6 +15,10 @@ O objetivo principal do nosso projeto foi baseado em montar um sistema para liga
 ## Resultado
 
 <img src="./projeto torneira.jpeg" />
+<video width="320" height="240" controls>
+  <source src="funcionamento-torneria.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Conclusão
 O resultado final foi o esperado, tendo em vista que está tudo funcionando de forma correta. O servo motor rotaciona 180 graus a torneira, que é aberta, quando a hora, minuto e segundo é chegado de forma exata. A hora é recebida por meio do RTC que é transmitida para o arduino uno e passada o comando rotação para o servo motor. O mesmo se dá ao rotacionar 180 graus de forma contrária.
